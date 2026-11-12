@@ -1,0 +1,18 @@
+﻿# Virtual Environment & Cache Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# File Model AI & Hasil Export (Ukuran Besar)
+*.pt
+*.onnx
+*_openvino_model/
+
+# Data Runtime Harian
+data/customer_history.json
+
+# File Sampah / Testing
+*.jpg
+*.png
+*.mp4
